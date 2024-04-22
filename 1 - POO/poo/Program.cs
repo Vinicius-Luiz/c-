@@ -1,162 +1,107 @@
-﻿// List<string> é uma coleção genérica que pode conter uma sequência de strings
-using System.Collections.Specialized;
-using System.Runtime.CompilerServices;
-using System.Threading;
+﻿using System.Runtime.CompilerServices;
+using poo;
 
-
-Dictionary<string, List<int>> bandas = new()
+internal class Program
 {
-    { "30PRAUM", new List<int> { 10, 10, 4, 5, 9, 6, 5 } },
-    { "Charlie Brown Jr", new List<int> { 9, 9, 8, 9, 6, 5, 8 } },
-    { "Sipper", new List<int>() }
-};
+    private static void Main(string[] args)
+    {
+        List<Banda> bandas = new();
 
-// Funções estáticas não dependem do estado de um objeto específico
-// e podem ser chamadas diretamente a partir do código sem a necessidade de criar uma instância da classe
-int ExibirMensagemMenu()
-{
-    Console.Write(@"
+        // Criar objetos 
+        Banda banda1 = new Banda(nome: "30PRAUM");
+        Banda banda2 = new Banda(nome: "Charlie Brown Jr");
+        Banda banda3 = new Banda(nome: "Sipper");
+
+        banda1.AddAvaliacao(avaliacao: new Avaliacao(nota: 10));
+        banda1.AddAvaliacao(avaliacao: new Avaliacao(nota: 4));
+        banda1.AddAvaliacao(avaliacao: new Avaliacao(nota: 7));
+
+        banda2.AddAvaliacao(avaliacao: new Avaliacao(nota: 9));
+        banda2.AddAvaliacao(avaliacao: new Avaliacao(nota: 6));
+        banda2.AddAvaliacao(avaliacao: new Avaliacao(nota: 8));
+
+        bandas.Add(banda1);
+        bandas.Add(banda2);
+        bandas.Add(banda3);
+
+        bandas[2].AddAlbum(album: new Album("Pink"));
+
+        bandas[2].Albuns[0].AddMusica(musica: new Musica(nome: "Paimom Prom Dress", artista: bandas[2])
+        {
+            Duracao = 3.14
+        });
+
+        bandas[2].Albuns[0].Musicas[0].AddAvaliacao(new Avaliacao(nota: 8));
+        bandas[2].Albuns[0].Musicas[0].AddAvaliacao(new Avaliacao(nota: 9));
+        bandas[2].Albuns[0].Musicas[0].AddAvaliacao(new Avaliacao(nota: 5));
+        // Criar objetos 
+
+        Dictionary<int, Menu> menuOptions = new()
+        {
+            { 1, new MenuRegistrarBanda() },
+            { 2, new MenuMostrarBandas() },
+            { 3, new MenuAvaliarBanda() },
+            { 4, new MenuMostrarMediaBanda() },
+            { 5, new MenuRegistrarAlbum() },
+            { 6, new MenuMostrarDiscografiaBanda() },
+            { 7, new MenuAvaliarAlbum() },
+            { 8, new MenuMostrarMediaAlbum() },
+            { 9, new MenuRegistrarMusica() },
+            { 10, new MenuAvaliarMusica() },
+            { 11, new MenuMostrarMediaMusica() },
+            { 0, new MenuSair() }
+        };
+
+        // Funções estáticas não dependem do estado de um objeto específico
+        // e podem ser chamadas diretamente a partir do código sem a necessidade de criar uma instância da classe
+        void ExibirMensagemMenu()
+        {
+            Console.Write(@"
 
 █░█ █ █▄░█ █ █▀▀ █ █░█ █▀   █░░ █░█ █ ▀█
 ▀▄▀ █ █░▀█ █ █▄▄ █ █▄█ ▄█   █▄▄ █▄█ █ █▄
 
+[ MENU BANDAS ]
 [1] Registrar uma banda
 [2] Mostrar todas as bandas
 [3] Avaliar uma banda
-[4] Exibir a média de uma banda
+[4] Mostrar a média de uma banda
+
+[ MENU ALBUNS ]
+[5] Registrar um album
+[6] Exibir a discografia de uma banda
+[7] Avaliar um album
+[8] Mostrar a média de um album
+
+[ MENU MUSICA ]
+[9] Registrar uma musica
+[10] Avaliar uma musica
+[11] Mostrar a média de uma musica
+
+[ MENU SAIR ]
 [0] Sair
+
 > ");
 
-    string op = Console.ReadLine()!;
-    int option = int.Parse(op);
+            string op = Console.ReadLine()!;
+            int option = int.Parse(op);
 
-    switch (option)
-    {
-        case 1:
-            RegistrarBandas();
-            break;
-        case 2:
-            MostrarBandas();
-            break;
-        case 3:
-            AvaliarBanda();
-            break;
-        case 4:
-            MostrarMediaBanda();
-            break;
-        case 0:
-            Console.WriteLine("Saindo...");
-            break;
-        default:
-            Console.WriteLine("Opção inválida");
-            break;
-    }
-
-    return option;
-}
-
-void MostrarTitulo(string titulo)
-{
-    int tituloLength = titulo.Length;
-    string style = string.Empty.PadLeft(tituloLength, '=');
-
-    Console.Clear();
-    Console.WriteLine(style);
-    Console.WriteLine(titulo);
-    Console.WriteLine(style + '\n');
-}
-
-void RegistrarBandas()
-{
-
-    MostrarTitulo("REGISTRAR BANDAS");
-    Console.Write("Nome da banda:\n> ");
-
-    string NovaBanda = Console.ReadLine()!;
-    bandas.Add(NovaBanda, new List<int>());
-
-    Console.Clear();
-    Console.WriteLine($"Banda {NovaBanda} registrada");
-}
-
-void MostrarBandas()
-{
-    MostrarTitulo("BANDAS CADASTRADAS");
-
-    int i = 1;
-    foreach (string banda in bandas.Keys)
-    {
-        Console.WriteLine($"Banda {i} - {banda}");
-        i++;
-    }
-
-    // for (int i = 0; i < bandas.Count; i++)
-    // {
-    //     Console.WriteLine($"Banda {i+1} - {bandas[i]}");
-    // }
-}
-
-void AvaliarBanda()
-{
-    MostrarTitulo("AVALIAR BANDAS");
-    Console.Write("Nome da banda:\n> ");
-
-    string banda = Console.ReadLine()!;
-
-    if (bandas.ContainsKey(banda))
-    {
-        Console.Write("Avaliação: ");
-        int avaliacao = int.Parse(Console.ReadLine()!);
-        bandas[banda].Add(avaliacao);
-        Console.WriteLine($"{banda} avaliada com sucesso!");
-    }
-    else
-    {
-        Console.WriteLine("Banda inexistente");
-    }
-}
-
-void MostrarMediaBanda()
-{
-    MostrarTitulo("MEDIA DE BANDAS");
-    Console.Write("Nome da banda:\n> ");
-
-    string banda = Console.ReadLine()!;
-
-    if (bandas.ContainsKey(banda))
-    {
-        int qtdAvaliacoes = bandas[banda].Count;
-
-        if (qtdAvaliacoes == 0)
-        {
-            Console.WriteLine($"Nenhuma avaliação registrada para a banda {banda}");
+            if (menuOptions.ContainsKey(option))
+            {
+                Menu menu = menuOptions[option];
+                menu.Executar(bandas);
+            }
+            else
+            {
+                Console.WriteLine("Opção inválida");
+            }
         }
-        else
+
+        while (true)
         {
-            // double media = 0;
-            // foreach (int avaliacao in bandas[banda])
-            // {
-            //     media += avaliacao;
-            // }
-            // media /= qtdAvaliacoes;
-            double media = bandas[banda].Average();
-            Console.WriteLine($"Avaliação da banda {banda}: {media}");
+            ExibirMensagemMenu();
+            Thread.Sleep(2000);
+            Console.Clear();
         }
-    }
-    else
-    {
-        Console.WriteLine("Banda inexistente");
-    }
-}
-
-while (true)
-{
-    int option = ExibirMensagemMenu();
-    Thread.Sleep(2500);
-    Console.Clear();
-
-    if (option == 0)
-    {
-        break;
     }
 }
