@@ -38,7 +38,7 @@ bandaSipper.AddAlbum(albumPink);
 
 bandaSipper.Discografia();
 
-// -----------------------------------------------------------------------------
+//================================================================================
 Console.Clear();
 
 Pessoa peVilela = new Pessoa(nome: "Rogério Vilela");
