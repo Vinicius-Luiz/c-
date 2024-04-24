@@ -1,7 +1,7 @@
+using System.Text.Json;
+using System.Text;
+
 namespace api_linq;
-
-using System.Linq;
-
 
 public class MusicasFavoritas
 {
@@ -27,5 +27,15 @@ public class MusicasFavoritas
             musica.ExibirResumo();
             Console.WriteLine("");
         }
+    }
+
+    public void GerarArquivoJson()
+    {
+        string json = JsonSerializer.Serialize(new { nome = NomeUsuario, musicas = ListaMusicasFavoritas });
+        string NomeArquivo = $"json\\musicas-favoritas-{NomeUsuario}.json";
+
+        File.WriteAllText(NomeArquivo, json, Encoding.UTF8);
+
+        Console.WriteLine($"Arquivo {NomeArquivo} gerado com sucesso!");
     }
 }
