@@ -36,7 +36,7 @@ internal class Musica : IAvaliavel
         Console.WriteLine($"Descricao {Descricao} | {Duracao}min | {(Disponivel ? "Disponível" : "Indisponível")}");
     }
 
-    public int qtdAvaliacoes()
+    public int QtdAvaliacoes()
     {
         return Avaliacoes.Count;
     }

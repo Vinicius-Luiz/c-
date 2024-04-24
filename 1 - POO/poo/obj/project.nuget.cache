@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5qaSE1nFO0CKuE0L/CMo/PhhWtbDkmR4BLXUQ6a2pVLMWSy6drUZJbkftCXgR/HUC9HKHyYOz07JQlpvC1HAaQ==",
+  "dgSpecHash": "HDAyJ73TneETQ4b72nA1hvqV32uCd7+iDwtF3z4ctAfuR/vzBNb1M0zQQ3vWpzCQ58eJzkFmojZXJT5VbIT1fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinicius Luiz\\Desktop\\Alura\\c-\\1 - POO\\poo\\poo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vinicius.luiz\\Documents\\c-\\1 - POO\\poo\\poo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }

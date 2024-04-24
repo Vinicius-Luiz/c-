@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Vinicius Luiz\\.nuget\\packages\\": {}
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinicius Luiz\\Desktop\\Alura\\c-\\1 - POO\\poo\\poo.csproj",
+      "projectUniqueName": "c:\\Users\\vinicius.luiz\\Documents\\c-\\1 - POO\\poo\\poo.csproj",
       "projectName": "poo",
-      "projectPath": "C:\\Users\\Vinicius Luiz\\Desktop\\Alura\\c-\\1 - POO\\poo\\poo.csproj",
-      "packagesPath": "C:\\Users\\Vinicius Luiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinicius Luiz\\Desktop\\Alura\\c-\\1 - POO\\poo\\obj\\",
+      "projectPath": "c:\\Users\\vinicius.luiz\\Documents\\c-\\1 - POO\\poo\\poo.csproj",
+      "packagesPath": "C:\\Users\\vinicius.luiz\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\vinicius.luiz\\Documents\\c-\\1 - POO\\poo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vinicius Luiz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\vinicius.luiz\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -54,12 +59,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.421\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

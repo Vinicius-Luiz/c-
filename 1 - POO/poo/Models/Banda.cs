@@ -42,7 +42,7 @@ internal class Banda : IAvaliavel
         }
     }
 
-    public int qtdAvaliacoes()
+    public int QtdAvaliacoes()
     {
         return Avaliacoes.Count;
     }

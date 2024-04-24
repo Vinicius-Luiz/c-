@@ -1,0 +1,14 @@
+C:\Users\vinicius.luiz\Documents\C#\poo\bin\Debug\net8.0\poo.exe
+C:\Users\vinicius.luiz\Documents\C#\poo\bin\Debug\net8.0\poo.deps.json
+C:\Users\vinicius.luiz\Documents\C#\poo\bin\Debug\net8.0\poo.runtimeconfig.json
+C:\Users\vinicius.luiz\Documents\C#\poo\bin\Debug\net8.0\poo.dll
+C:\Users\vinicius.luiz\Documents\C#\poo\bin\Debug\net8.0\poo.pdb
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.AssemblyInfoInputs.cache
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.AssemblyInfo.cs
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.dll
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\refint\poo.dll
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.pdb
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\poo.genruntimeconfig.cache
+C:\Users\vinicius.luiz\Documents\C#\poo\obj\Debug\net8.0\ref\poo.dll

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Uq7Eykbq8BacfGVTJYhX7P8NY9xeyU6JceY0qSNinwDq2m+0l5f3pdf1uaQkH0t/lbFkznQ0u28NyReEsYOS0w==",
+  "dgSpecHash": "C6/vXr9L9yIf2rTChdBpJcvYyvRNbRd1NxqKnn2wB+/zEWfGs6bc2Mwc6wP55whf9fTGm9eKMRgG41v04ZduSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinicius Luiz\\Desktop\\Alura\\c-\\1 - POO\\api_linq\\api_linq.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vinicius.luiz\\Documents\\c-\\1 - POO\\api_linq\\api_linq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }

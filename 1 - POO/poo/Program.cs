@@ -8,9 +8,9 @@ internal class Program
         List<Banda> bandas = new();
 
         // Criar objetos 
-        Banda banda1 = new Banda(nome: "30PRAUM");
-        Banda banda2 = new Banda(nome: "Charlie Brown Jr");
-        Banda banda3 = new Banda(nome: "Sipper");
+        Banda banda1 = new(nome: "30PRAUM");
+        Banda banda2 = new(nome: "Charlie Brown Jr");
+        Banda banda3 = new(nome: "Sipper");
 
         banda1.AddAvaliacao(avaliacao: new Avaliacao(nota: 10));
         banda1.AddAvaliacao(avaliacao: new Avaliacao(nota: 4));

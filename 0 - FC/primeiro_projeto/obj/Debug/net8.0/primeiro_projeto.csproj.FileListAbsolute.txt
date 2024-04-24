@@ -1,0 +1,14 @@
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\bin\Debug\net8.0\primeiro_projeto.exe
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\bin\Debug\net8.0\primeiro_projeto.deps.json
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\bin\Debug\net8.0\primeiro_projeto.runtimeconfig.json
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\bin\Debug\net8.0\primeiro_projeto.dll
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\bin\Debug\net8.0\primeiro_projeto.pdb
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.AssemblyInfoInputs.cache
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.AssemblyInfo.cs
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.dll
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\refint\primeiro_projeto.dll
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.pdb
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\primeiro_projeto.genruntimeconfig.cache
+C:\Users\vinicius.luiz\Documents\C#\primeiro_projeto\obj\Debug\net8.0\ref\primeiro_projeto.dll

@@ -42,7 +42,7 @@ internal class Album : IAvaliavel
         Console.WriteLine($"Duracao total: {DuracaoTotal}min");
     }
 
-    public int qtdAvaliacoes()
+    public int QtdAvaliacoes()
     {
         return Avaliacoes.Count;
     }

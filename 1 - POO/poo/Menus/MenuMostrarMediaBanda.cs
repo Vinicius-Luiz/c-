@@ -13,7 +13,7 @@ internal class MenuMostrarMediaBanda : Menu
 
         if (index >= 0)
         {
-            int qtdAvaliacoes = bandas[index].qtdAvaliacoes();
+            int qtdAvaliacoes = bandas[index].QtdAvaliacoes();
 
             if (qtdAvaliacoes == 0)
             {
