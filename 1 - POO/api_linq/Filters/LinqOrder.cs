@@ -1,5 +1,3 @@
-using System.Linq;
-
 namespace api_linq.Filters;
 
 public class LinqOrder
