@@ -1,0 +1,15 @@
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\bin\Debug\net8.0\classe_heranca.exe
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\bin\Debug\net8.0\classe_heranca.deps.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\bin\Debug\net8.0\classe_heranca.runtimeconfig.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\bin\Debug\net8.0\classe_heranca.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\bin\Debug\net8.0\classe_heranca.pdb
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.AssemblyInfoInputs.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.AssemblyInfo.cs
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.sourcelink.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\refint\classe_heranca.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.pdb
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\classe_heranca.genruntimeconfig.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_heranca\obj\Debug\net8.0\ref\classe_heranca.dll
