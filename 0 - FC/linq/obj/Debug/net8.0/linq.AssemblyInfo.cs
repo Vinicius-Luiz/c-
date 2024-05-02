@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("api_linq")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("linq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+139aa29a313f15c4d0e9f1c990be89872474273c")]
-[assembly: System.Reflection.AssemblyProductAttribute("api_linq")]
-[assembly: System.Reflection.AssemblyTitleAttribute("api_linq")]
+[assembly: System.Reflection.AssemblyProductAttribute("linq")]
+[assembly: System.Reflection.AssemblyTitleAttribute("linq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

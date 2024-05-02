@@ -66,12 +66,11 @@ public class Program
                     #region LISTA DE CONTAS
                     Banco BBradesco = new(cnpj: "12.345.678/0001-90", tamanho: 3) { Nome = "Bradesco" };
                     Banco BItau = new(cnpj: "12.345.678/0001-90", tamanho: 1) { Nome = "Itau" };
-                    #endregion
 
-                    Conta CVini = new("123.456.789-10"){Nome = "Vinicius"};
+                    Conta CVini = new("123.456.789-10") { Nome = "Vinicius" };
                     CVini.Depositar(1000);
-                    Conta CHenrique = new("123.456.789-10") { Nome = "Henrique"};
-                    CHenrique.Depositar(2000);
+                    Conta CHenrique = new("123.456.789-10") { Nome = "Henrique" };
+                    CHenrique.Sacar(2000);
                     Conta CLuis = new("123.456.789-10") { Nome = "Luis", Saldo = 3000 };
                     CLuis.Sacar(1000);
                     Conta CAmanda = new("123.456.789-10") { Nome = "Amanda", Saldo = 4000 };
@@ -87,8 +86,11 @@ public class Program
                     BBradesco.MostrarContas();
                     BItau.MostrarContas();
 
-                    BItau.Inserir(CGabi);
+                    BBradesco.Remover(CHenrique);
+                    // BItau.Inserir(CGabi);
+                    #endregion
                     break;
+
             }
         }
     }

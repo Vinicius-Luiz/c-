@@ -2,7 +2,7 @@ namespace classe_generica;
 
 public class Conta
 {
-    public string? Cpf { get; set; }
+    public string? Cpf { get; }
     public string? Nome { get; set; }
     public decimal Saldo { get; set; }
 

@@ -1,0 +1,15 @@
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\bin\Debug\net8.0\linq.exe
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\bin\Debug\net8.0\linq.deps.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\bin\Debug\net8.0\linq.runtimeconfig.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\bin\Debug\net8.0\linq.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\bin\Debug\net8.0\linq.pdb
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.AssemblyInfoInputs.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.AssemblyInfo.cs
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.sourcelink.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\refint\linq.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.pdb
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\linq.genruntimeconfig.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\linq\obj\Debug\net8.0\ref\linq.dll

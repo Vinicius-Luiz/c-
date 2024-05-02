@@ -19,6 +19,10 @@ public class Banco
 
     public void Remover(Conta conta)
     {
+        if (conta.Saldo < 0)
+        {
+            throw new Exception("Conta com saldo negativo");
+        }
         Contas.Remover(conta);
     }
 

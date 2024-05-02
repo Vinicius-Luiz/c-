@@ -13,3 +13,18 @@ C:\Users\Vinicius Luiz\Desktop\Alura\c-\0 - FC\classe_generica\obj\Debug\net6.0\
 C:\Users\Vinicius Luiz\Desktop\Alura\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.pdb
 C:\Users\Vinicius Luiz\Desktop\Alura\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.genruntimeconfig.cache
 C:\Users\Vinicius Luiz\Desktop\Alura\c-\0 - FC\classe_generica\obj\Debug\net6.0\ref\classe_generica.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\bin\Debug\net6.0\classe_generica.exe
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\bin\Debug\net6.0\classe_generica.deps.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\bin\Debug\net6.0\classe_generica.runtimeconfig.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\bin\Debug\net6.0\classe_generica.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\bin\Debug\net6.0\classe_generica.pdb
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.AssemblyInfoInputs.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.AssemblyInfo.cs
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.sourcelink.json
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\refint\classe_generica.dll
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.pdb
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\classe_generica.genruntimeconfig.cache
+C:\Users\vinicius.luiz\Documents\c-\0 - FC\classe_generica\obj\Debug\net6.0\ref\classe_generica.dll

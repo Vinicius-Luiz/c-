@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MrRTMtuZDR/f6VNg/sqN+T/wH3bONovZtO5oORmESRW+3o16uW1D8vZ98lV9nr4y6H3nZeAIi3WVgAnrbHlizQ==",
+  "dgSpecHash": "cdyPa69a/o7BL7WCyu57WN/4fZWl1YJM0BpLXhVJcBi1RFzVEEgfhFrBzM9t8OVTnZxIwiSpgLdQtvqu84VQQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vinicius Luiz\\Desktop\\Alura\\c-\\0 - FC\\classe_generica\\classe_generica.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vinicius.luiz\\Documents\\c-\\0 - FC\\classe_generica\\classe_generica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\vinicius.luiz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }
